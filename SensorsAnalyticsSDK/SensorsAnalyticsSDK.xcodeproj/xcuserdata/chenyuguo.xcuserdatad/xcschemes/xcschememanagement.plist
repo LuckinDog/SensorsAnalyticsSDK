@@ -6,8 +6,23 @@
 	<dict>
 		<key>SensorsAnalyticsSDK.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F25024DA2394B94E006FFB64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F25024E32394B94E006FFB64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
