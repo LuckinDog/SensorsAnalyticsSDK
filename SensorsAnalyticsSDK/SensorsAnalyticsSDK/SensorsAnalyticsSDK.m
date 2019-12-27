@@ -478,6 +478,7 @@ static SensorsAnalyticsSDK *sharedInstance = nil;
         NSBundle *sensorsBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[SensorsAnalyticsSDK class]] pathForResource:@"SensorsAnalyticsSDK" ofType:@"bundle"]];
         //文件路径
         NSString *jsonPath = [sensorsBundle pathForResource:@"sa_autotrack_viewcontroller_blacklist.json" ofType:nil];
+        NSLog(@"$$$$$$$$$$$jsonPath: %@", jsonPath);
         NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath];
         @try {
             NSArray *blacklistedViewControllerClassNames = [NSJSONSerialization JSONObjectWithData:jsonData  options:NSJSONReadingAllowFragments  error:nil];
